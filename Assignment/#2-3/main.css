@@ -1,0 +1,22 @@
+body{
+    
+    background-color: gainsboro;
+}
+.container{
+    max-width: 1500px;
+    background-color: white;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.box{
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 120px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    text-align: center;
+}

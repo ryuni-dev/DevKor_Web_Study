@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    width: 370px;
+    height: 500px;
+    padding: 25px;
+}
+.container--input{
+    margin: 5px 5px 5px 5px;
+    width: 80%;
+
+}
+.container--name{
+    display: flex;
+    flex-direction: row;
+}
+.container--footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.container--check{
+    flex-grow: 3;
+}
+.btn{
+    background-color: orange;
+    color:white;
+    width: 130px;
+    height: 25px;
+    border: 0px;
+    margin-right: 20px;
+}

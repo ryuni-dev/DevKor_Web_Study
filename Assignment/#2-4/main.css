@@ -1,0 +1,149 @@
+body{
+    width: 80%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px auto;
+    color: white;
+    text-align: center;
+}
+.landing--box__head{
+    background-color: cornflowerblue;
+    display: flex;
+    width: 100%;
+}
+.landing--box__mid1{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.landing--box__mid2{
+    background-color: darkblue;
+
+}
+.landing--box__mid3{
+    color: black;
+    margin-top: 30px;
+}
+.landing--box__icon{
+    display: flex;
+    justify-content: center;
+
+}
+
+.landing--box__insider{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 60px 60px 60px;
+
+
+}
+.landing--text{
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 20px 10px 100px;
+    flex-grow: 1;
+}
+.landing--box__mini{
+    margin: 10px 10px 30px 10px;
+    justify-content: center;
+
+}
+.outer-box{
+    display: flex;
+}
+.box1{
+
+    width: 50%;
+    height: 250px;
+    background-image: url(2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    width: 50%;
+    height: 250px;
+    background-image: url(3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    width: 50%;
+    height: 250px;
+    background-image: url(4.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4{
+    width: 50%;
+    height: 250px;
+    background-image: url(5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    overflow:hidden;
+}
+
+.box:hover{
+    border: 8px solid white;
+}
+.btn{
+    background-color: gray;
+    color: white;
+
+}
+.img{
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
+
+}
+.icon-box{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 63px;
+
+    background-color: white;
+    color:navy;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.icon-circle{
+    margin-top: 15px;
+
+}
+.landing--box__footer{
+
+}
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+.link-box{
+    width: 50px;
+    height: 50px;
+    background-color: navy;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+.text-margin{
+    margin: 30px 30px 10px 30px;
+    color: white;
+}
+.img-margin{
+    margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+    .landing--box__head{
+        flex-direction: column;
+    }
+    
+}
