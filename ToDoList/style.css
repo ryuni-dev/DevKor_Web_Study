@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FEFBE7;
+    font-family: 'Sunflower', sans-serif;
+    font-size: xx-large;
+}
+input{
+    border: 0;
+    border-radius: 7px;
+    outline: none;
+    background-color: #EEEEEE;
+    font-family: 'Sunflower', sans-serif;
+    width: 40vw;
+    height: 3vh;
+    padding-inline: 10px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DAE5D0;
+    width: 60vw;
+    height: 97vh;
+    overflow-y: auto;
+
+}
+.list{
+    margin-right: auto;
+    padding-left: 5vw;
+    font-size:smaller;
+}
+.close{
+    margin-left: 3vw;
+    color: #DEA057;
+}
+
+@media (min-width: 950px){
+    input{
+        width: 350px;
+    }
+    .container{
+        width: 600px;
+        height: 950px;
+    
+    }
+    .list{
+        padding-left: 70px;
+    }
+    .close{
+        margin-left: 30px;
+    }
+}
